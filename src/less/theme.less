@@ -1,0 +1,178 @@
+@primary-color: #24b5c1;
+@template-primary-color: #24b5c1;
+
+.theme {
+	background: @primary-color !important;
+}
+
+.theme-color {
+	color: @primary-color !important;
+}
+
+.ant-menu-item-selected {
+	color: @primary-color !important;
+	&::after {
+		border-right: 5px solid @primary-color !important;
+	}
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-selected {
+	background: #fff !important;
+	color: @primary-color !important;
+	&:hover {
+		color: @primary-color !important;
+	}
+}
+
+.fa-user-circle {
+	color: @primary-color !important;
+}
+
+.fa-bell {
+	color: @primary-color !important;
+}
+
+.fa-user {
+	color: @primary-color !important;
+}
+
+.fa-palette {
+	color: @primary-color !important;
+}
+
+.theme-button {
+	background: @primary-color !important;
+	border: 1px solid @primary-color !important;
+	color: #fff !important;
+	border-radius: 5px !important;
+	font-weight: bold !important;
+	&:hover {
+		background: @primary-color !important;
+		opacity: .8;
+	}
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+	background-color: @primary-color !important;
+}
+
+.theme-border-color {
+	border-color: @primary-color!important;
+}
+
+.theme-hover {
+	background: @primary-color !important;
+	color: #fff;
+}
+
+// survey template primary color
+.template-theme {
+	background-color: @template-primary-color;
+}
+
+.ant-spin {
+	.ant-spin-dot {
+		.ant-spin-dot-item {
+			background: @primary-color;
+		}
+	}
+}
+
+// about pagination
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+	border: none!important;
+}
+
+.ant-pagination-item {
+	border: none!important;
+	font-weight: 700;
+}
+
+.ant-pagination-item-active a {
+	background-color: @primary-color;
+	color: #fff!important;
+	border-radius: 4px;
+}
+
+.ant-pagination-prev:focus .ant-pagination-item-link, .ant-pagination-next:focus .ant-pagination-item-link, .ant-pagination-prev:hover .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link {
+	color: @primary-color!important;
+}
+
+.ant-pagination-item:hover a {
+	color: @primary-color!important;
+}
+
+.ant-pagination-item-active:hover a {
+	color: #fff!important;
+}
+
+.ant-pagination-item-ellipsis {
+	color: rgba(0, 0, 0, .65)!important;
+}
+
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-link-icon, .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-link-icon {
+	color: @primary-color!important;
+}
+
+// about checkbox
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner {
+	border: 1px solid #70D58F!important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+	background-color: #70D58F!important;
+	border: 1px solid #70D58F!important;
+}
+.ant-checkbox-checked::after {
+	border: 1px solid #70D58F!important;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+	background-color: #70D58F!important;
+}
+
+.ant-checkbox-disabled.ant-checkbox-checked .ant-checkbox-inner::after {
+	border-color: #fff!important;
+}
+
+// about switch
+.ant-switch {
+	width: 80px;
+	height: 24px!important;
+	border-radius: 6px!important;
+	background-color: #707070!important;
+}
+.ant-switch-handle {
+	width: 30px!important;
+	height: 30px!important;
+	top: -3px!important;
+	left: -4px!important;
+}
+
+.ant-switch-handle::before {
+	border-radius: 16px!important;
+	background-color: #CBCBCB!important;
+}
+
+.ant-switch-checked .ant-switch-handle {
+	top: -3px!important;
+	left: 54px!important;
+}
+
+.ant-switch-checked .ant-switch-handle::before {
+	background-color: #fff!important;
+}
+
+.ant-switch-checked {
+	background-color: #70D58F!important;
+}
+
+.ant-switch-inner {
+	font-size: 16px!important;
+}
+
+// about table
+.ant-table-tbody > tr.ant-table-row-selected > td {
+	background-color: transparent!important;
+}

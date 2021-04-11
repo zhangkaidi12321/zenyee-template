@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../assets/font/Helvetica-Neue-2.ttf');
+}
+
+@font-face {
+	font-family: 'Gill Sans';
+	src: url('../assets/font/GillSans-01.ttf');
+}
+
+html,
+body {
+	font-family: 'Gill Sans', 'Helvetica Neue';
+	margin: 0;
+	height: 100%;
+	min-width: 1200PX; // ignore
+	min-height: 800PX; // ignore
+}
+
+@import './component.less';
+@import './img.less';
+
+:global(#app) {
+	height: inherit;
+	section {
+		height: 100%;
+		box-shadow: -3px 0 10px 0 #d0cece;
+		z-index: 100;
+		header {
+			height: 80px;
+			background: #fff;
+		}
+		aside {
+			// width: 350px !important;
+			// min-width: 350px !important;
+			// max-width: 350px !important;
+		}
+		main {
+			background: #fff;
+			padding: 20px 50px
+		}
+	}
+}
+

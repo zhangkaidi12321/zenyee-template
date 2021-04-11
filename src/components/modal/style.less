@@ -1,0 +1,61 @@
+@primary-color: #24b5c1;
+
+.modal {
+	text-align: center;
+	margin-top: 20px;
+	:global(.ant-modal) {
+		width: 1400px !important;
+		:global(.ant-modal-close) {
+			top: -40px;
+			right: -40px;
+			:global(.ant-modal-close-x) {
+				height: 80px;
+				width: 80px;
+				border-radius: 50%;
+				background: #cbcbcb;
+				.close {
+					font-size: 50px;
+					color: #707070;
+					margin-top: 15px;
+				}
+			}
+		}
+		:global(.ant-modal-body) {
+			height: 605px;
+			margin-top: 10%;
+		}
+		.icon {
+			display: inline-block;
+			border-radius: 50%;
+			background: @primary-color;
+			width: 118px;
+			height: 118px;
+			margin-top: 112px;
+			i {
+				line-height: 118px;
+				font-size: 60px;
+				color: #f0ebe7;
+			}
+		}
+		.title {
+			margin-top: 25px;
+			font-size: 55px;
+			padding: 0 200px;
+		}
+		.content {
+			font-size: 28px;
+			padding: 0 200px;
+		}
+		.footer {
+			margin-top: 110px;
+			position: absolute;
+			width: 100%;
+			button {
+				margin: 0 15px;
+				font-size: 24px;
+				height: 78px;
+				padding: 0 160px;
+			}
+		}
+	}
+}

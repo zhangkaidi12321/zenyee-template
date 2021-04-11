@@ -1,0 +1,92 @@
+.bg {
+	background: #f7f7f7;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	.login {
+		width: 770px;
+		height: 750px;
+		background: #fff;
+		text-align: center;
+		border-radius: 15px;
+		box-shadow: 0 1px 5px #F0EBE7;
+		.l1 {
+			margin-top: 70px;
+			i {
+				width: 310px;
+				height: 60px;
+			}
+		}
+		.l2 {
+			margin-top: 20px;
+			font-size: 55px;
+			height: 70px;
+			line-height: 70px;
+		}
+		.l3 {
+			font-size: 20px;
+			color: #707070;
+		}
+		.l4 {
+			margin-top: 20px;
+			.line {
+				width: 415px;
+				height: 60px;
+				margin: 0 auto;
+				margin-top: 40px;
+				input, :global(.ant-input-password) {
+					height: 100%;
+				}
+			}
+			.pwd {
+				width: 415px;
+				margin: 0 auto;
+				margin-top: 10px;
+				text-align: left;
+				font-size: 18px;
+				color: #707070;
+				font-style: italic;
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		}
+		.l5 {
+			margin-top: 60px;
+			.login {
+				height: 50px;
+				width: 420px;
+				font-size: 22px;
+				font-weight: bold;
+				color: #fff;
+				background: rgb(16, 32, 44);
+			}
+		}
+		.r6 {
+			margin-top: 40px;
+			.topLine {
+				border-top: 4px dashed #f0ebe7;
+				width: 420px;
+				margin: 0 auto;
+				padding-top: 20px;
+				font-size: 20px;
+				color: #707070;
+				span {
+					&:nth-child(2) {
+						margin-left: 10px;
+						border-bottom: 2px dashed #707070;
+						font-style: italic;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+	.btm {
+		position: absolute;
+		bottom: 30px;
+		font-size: 20px;
+		color: #707070;
+	}
+}

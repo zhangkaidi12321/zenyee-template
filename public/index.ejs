@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DharmaIndex</title>
+		<% if (!htmlWebpackPlugin.options.env) { %>
+		<link rel="stylesheet/less"  href="../src/less/theme.less" rel="stylesheet" />
+		<link rel="stylesheet" href="../src/assets/icon/font-awesome/css/all.min.css">
+		<% } %>
+		<% if (htmlWebpackPlugin.options.env) { %>
+		<link rel="stylesheet/less" href="/dharma/css/theme.less" rel="stylesheet" />
+		<link rel="stylesheet" href="/dharma/assets/icon/font-awesome/css/all.min.css">
+		<% } %>
+	</head>
+	<body>
+		<div id="app"></div>
+		<!-- <script src="https://sdk.amazonaws.com/js/aws-sdk-2.507.0.min.js" defer></script>
+		<script src="https://js.stripe.com/v3/" defer></script> -->
+	</body>
+</html>

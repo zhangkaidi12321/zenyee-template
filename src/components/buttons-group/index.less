@@ -1,0 +1,47 @@
+.buttonsContainer {
+  background-color: #969695;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px 10px;
+  >.buttonsItemWrapper {
+    width: 40px;
+    height: 40px;
+    &:not(:last-child) {
+      flex-basis: 50px;
+    }
+    >.buttonsItem {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      // line-height: 40px;
+      text-align: center;
+      border-radius: 8px;
+      flex-basis: 50px;
+      background-color: RGBA(69, 69, 69, 1);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      >i {
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.tooltipOverlay {
+  >div {
+    >div:last-child {
+      padding: 0;
+      background-color: transparent;
+    }
+  }  
+}
+
+.tooltipTextWrapper {
+  padding: 10px;
+  border-radius: 4px;
+}
